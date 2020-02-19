@@ -1,0 +1,140 @@
+@import "libs/header.less";
+@import "libs/logos.less";
+@import "libs/about-us.less";
+@import "libs/blocks.less";
+@import "libs/numbers.less";
+@import "libs/projects.less";
+@import "libs/contacts.less";
+@import "libs/footer.less";
+@import "libs/hamburger.less";
+
+
+/* FONTS 
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+
+*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	line-height: 30px;
+}
+
+a {
+	color: #ffffff;
+	transition: 0.2s ease-out;
+
+	&:hover,
+	&:focus {
+		color: #FFA630;
+		text-decoration: none;
+	}
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	line-height: 66px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1300px;
+}
+
+.btn--play {
+	transition: 0.2s ease-out;
+
+	&:hover,
+	&:focus {
+		background-color: #FFA630;
+		box-shadow: 0 0 5px 27px rgba(0, 0, 0, 0.1)
+	}
+}
+
+.w-100 {
+	display: none;
+
+	@media (min-width: 1330px) {
+		display: block;
+	}
+}
+
+.contacts--social {
+	margin-top: 90px;
+	margin-bottom: 30px;
+	width: 240px;
+
+	@media (min-width: 992px) {
+		width: auto;
+	}
+}
+
+
+/*==========  Mobile First Method — Bootstrap Grid ==========*/
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+// Code here
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+}
+
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens - adaptive styles bofore 1200px */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops - adaptive styles bofore 992px */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets - adaptive styles bofore 768px */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones - adaptive styles bofore 480px */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina - adaptive styles bofore 320px */
+@media only screen and (max-width : 320px) {
+
+}

@@ -1,0 +1,111 @@
+.projects {
+	background-color: #252525;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.projects--wrapper {
+
+	.block {
+		&--title {
+			width: 340px;
+		}
+
+		&:first-child {
+			width: 860px;
+			background-image: url('../../img/Mask-4.png');
+		}
+
+		&:nth-of-type(2) {
+			margin-right: auto;
+			padding-right: 65px;
+
+			h2 {
+				text-align: right;
+
+				&:after {
+					margin-left: 50px;
+				}
+			}
+
+			@media (min-width: 680px) {
+				margin-right: 0;
+			}
+		}
+
+		&:nth-of-type(4) {
+			background-image: url('../../img/Mask-1.png');
+		}
+
+		&:nth-of-type(6) {
+			background-image: url('../../img/Mask-2.png');
+		}
+
+		&:last-of-type {
+			margin-right: auto;
+			margin-left: auto;
+			background-image: url('../../img/Mask-3.png');
+
+			@media (min-width: 680px) {
+				margin-left: 0;
+			}
+
+			@media (min-width: 1235px) {
+				margin-left: auto;
+			}
+
+			@media (min-width: 1330px) {
+				margin-right: 0;
+
+			}
+		}
+	}
+}
+
+.ctp {
+	padding-left: 30px;
+	border-color: #ef3527;
+
+	@media (min-width: 1200px) {
+		padding-left: 40px;
+		padding-top: 60px;
+	}
+
+	@media (min-width: 1330px) {
+		padding-top: 90px;
+		padding-left: 70px;
+	}
+}
+
+.btn--red {
+	width: 160px;
+	height: 50px;
+	background-color: #ef3527;
+	border: none;
+	margin-left: 80px;
+	margin-top: 25px;
+
+	color: #252525;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	line-height: 16px;
+	text-transform: uppercase;
+	transition: 0.2s ease-out;
+
+	&:hover,
+	&:focus {
+		background-color: darken(#ef3527, 10%);
+		border-radius: 5px;
+	}
+}
+
+.project-w100 {
+	width: 100%;
+	display: block;
+
+	@media (min-width: 1235px) {
+		display: none;
+	}
+}
+
