@@ -284,7 +284,7 @@ nav {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 20px;
-  cursor: pointer;
+  /*cursor: pointer;*/
 }
 
 .block-1 {
