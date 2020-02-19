@@ -13,6 +13,8 @@
 
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
 	<!-- Syles -->
 	<link rel="stylesheet" href="css/style.css">
 
@@ -105,31 +107,69 @@
 
     <section class="blocks">
     	<div class="container">
-    		<div class="row">
+    		<!-- SWIPER JS -->
+    		 <div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			            <div class="block block-1">
+			    			<h2 class="block--title__first">Our Focus</h2>
+								<p class="block--desc">SolarBox's core focus includes:</p>
+			    			</div>
+		    			</div>
+			        <div class="swiper-slide">
+						<div class="block block-2">
+		    				<p class="block--title">Sustainable Profits</p>
+		    			</div>
+		    		</div>
+			        <div class="swiper-slide">
+				        <div class="block block-3">
+			    				<p class="block--title">Sustainable Infrastructure</p>
+			    			</div>
+			    		</div>
+			        <div class="swiper-slide">
+			        	<div class="block block-4">
+		    				<p class="block--title">Sustainable Environment</p>
+		    			</div>
+		    		</div>
+			        <div class="swiper-slide">
+				        <div class="block block-5">
+			    				<p class="block--title">Sustainable Technology</p>
+			    			</div>
+			    		</div>
+			        <div class="swiper-slide">
+			        	<div class="block block-6">
+		    				<p class="block--title">Sustainable Communities</p>
+		    			</div>
+			        </div>
+			    </div>
+			    <div class="swiper-pagination"></div>
+
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			</div>
+
+	<!-- /SWIPER JS -->
+
+    		<div class="row blocks-swiper-off">
     			<div class="block block-1">
-    				<h2 class="block--title__first">Our
-Focus</h2>
+    				<h2 class="block--title__first">Our Focus</h2>
 					<p class="block--desc">SolarBox's core focus includes:</p>
     			</div>
     			<div class="block block-2">
-    				<p class="block--title">Sustainable
-Profits</p>
+    				<p class="block--title">Sustainable Profits</p>
     			</div>
     			<div class="block block-3">
     				<p class="block--title">Sustainable Infrastructure</p>
     			</div>
     			<div class="w-100 blocks--w100"></div>
     			<div class="block block-4">
-    				<p class="block--title">Sustainable
-Environment</p>
+    				<p class="block--title">Sustainable Environment</p>
     			</div>
     			<div class="block block-5">
-    				<p class="block--title">Sustainable
-Technology</p>
+    				<p class="block--title">Sustainable Technology</p>
     			</div>
     			<div class="block block-6">
-    				<p class="block--title">Sustainable
-Communities</p>
+    				<p class="block--title">Sustainable Communities</p>
     			</div>
     		</div>
     	</div>
@@ -173,6 +213,43 @@ since 2009.</p>
 	
 	<section class="projects">
 		<div class="container">
+			<!-- Swiper -->
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+					    <div class="block first-slide">
+							<p class="block--title">D.C. Housing Authority</p>
+						</div>
+					</div>
+			        <div class="swiper-slide">
+					    <div class="block block-1 ctp">
+		    				<h2 class="block--title__first">Our Projects</h2>
+							<button class="btn--red">See all</button>
+		    			</div>
+    				</div>
+			        <div class="swiper-slide">
+        				<div class="block">
+							<p class="block--title">Phyllis Wheatley YWCA</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="block">
+							<p class="block--title">Elsie Whitlow Stokes</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="block">
+							<p class="block--title">MARTA<br>Project</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			    <div class="swiper-button-prev"></div>
+			    <div class="swiper-button-next"></div>
+			</div>
+
+			<!-- /Swiper -->
+
 			<div class="row projects--wrapper">
 				<div class="block">
 					<p class="block--title">D.C. Housing Authority</p>
@@ -312,6 +389,9 @@ United States</p>
 	
 	<!-- Bootstrap JS скрипты -->
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Swiper JS  -->
+	<script src="https://unpkg.com/swiper/js/swiper.js"></script>
 	
 	<!-- Собственные JS скрипты -->
 	<script src="js/main.js"></script>

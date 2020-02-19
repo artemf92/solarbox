@@ -9,6 +9,19 @@ header {
   padding-top: 25px;
 }
 
+.swiper-button-prev, 
+.swiper-button-next {
+  color: #ef3527;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ef3527;
+}
+
+.blocks-swiper-off {
+  display: none;
+}
+
 header .row {
   justify-content: space-between;
   flex-flow: wrap;
@@ -410,6 +423,10 @@ nav {
   background-repeat: no-repeat;
 }
 
+.numbers--block__1 {
+  display: none;
+}
+
 .numbers--block__2,
 .numbers--block__3 {
   background-image: url('../img/Vector-1.png');
@@ -433,12 +450,23 @@ nav {
   padding-bottom: 50px;
 }
 
+.projects--wrapper {
+  display: none;
+}
+
 .projects--wrapper .block--title {
   width: 340px;
 }
 
+.first-slide {
+  width: 80%;
+  max-width: 860px;
+  background-image: url('../img/Mask-4.png');
+}
+
 .projects--wrapper .block:first-child {
-  width: 860px;
+  width: 80%;
+  max-width: 860px;
   background-image: url('../img/Mask-4.png');
 }
 
@@ -983,6 +1011,26 @@ h2 {
 @media (min-width: 1020px) {
   .blocks--w100 {
     display: block;
+  }
+
+  .swiper-container {
+    display: none;
+  }
+
+  .blocks-swiper-off {
+    display: flex;
+  }
+
+  .numbers--block__1 {
+    display: block;
+  }
+
+  .projects--wrapper {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
   }
 }
 
