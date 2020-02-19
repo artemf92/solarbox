@@ -1,6 +1,6 @@
 header {
   background-color: #d43327;
-  background-image: url('../../img/bg/bg.jpg');
+  background-image: url('../img/bg/bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -263,7 +263,7 @@ nav {
   width: 525px;
   height: 525px;
   z-index: 5;
-  background-image: url('../../img/about-img.png');
+  background-image: url('../img/about-img.png');
 }
 
 .blocks {
@@ -296,23 +296,23 @@ nav {
 }
 
 .block-2 {
-  background-image: url('../../img/Mask.png');
+  background-image: url('../img/Mask.png');
 }
 
 .block-3 {
-  background-image: url('../../img/Mask3.png');
+  background-image: url('../img/Mask3.png');
 }
 
 .block-4 {
-  background-image: url('../../img/Mask-3.png');
+  background-image: url('../img/Mask-3.png');
 }
 
 .block-5 {
-  background-image: url('../../img/Mask1.png');
+  background-image: url('../img/Mask1.png');
 }
 
 .block-6 {
-  background-image: url('../../img/Mask5.png');
+  background-image: url('../img/Mask5.png');
 }
 
 .block--title__first {
@@ -412,19 +412,19 @@ nav {
 
 .numbers--block__2,
 .numbers--block__3 {
-  background-image: url('../../img/Vector-1.png');
+  background-image: url('../img/Vector-1.png');
 }
 
 .numbers--block__4 {
-  background-image: url('../../img/Vector-auto.png');
+  background-image: url('../img/Vector-auto.png');
 }
 
 .numbers--block__5 {
-  background-image: url('../../img/Vector-2.png');
+  background-image: url('../img/Vector-2.png');
 }
 
 .numbers--block__6 {
-  background-image: url('../../img/Vector-3.png');
+  background-image: url('../img/Vector-3.png');
 }
 
 .projects {
@@ -439,7 +439,7 @@ nav {
 
 .projects--wrapper .block:first-child {
   width: 860px;
-  background-image: url('../../img/Mask-4.png');
+  background-image: url('../img/Mask-4.png');
 }
 
 .projects--wrapper .block:nth-of-type(2) {
@@ -456,17 +456,17 @@ nav {
 }
 
 .projects--wrapper .block:nth-of-type(4) {
-  background-image: url('../../img/Mask-1.png');
+  background-image: url('../img/Mask-1.png');
 }
 
 .projects--wrapper .block:nth-of-type(6) {
-  background-image: url('../../img/Mask-2.png');
+  background-image: url('../img/Mask-2.png');
 }
 
 .projects--wrapper .block:last-of-type {
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../../img/Mask-3.png');
+  background-image: url('../img/Mask-3.png');
 }
 
 .ctp {
@@ -548,7 +548,7 @@ nav {
 }
 
 .map {
-  background-image: url(../../img/Map.png);
+  background-image: url('../img/Map.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
